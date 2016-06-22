@@ -19,4 +19,22 @@ an individual who will default(this can be resolved by setting a higher threshol
 - Assumes X is normal in each of the classes, this can be fundamental wrong
 - Assumes X in different class shares a common covariance matrix
 - Will need to estimate covariance matrix, class specific mean, and prior probabilify
+- The estimation of covariance matrix involves estimation P(P+1)/2 parameters
 
+
+QDA
+
+Description: Similar to LDA, except that we model class specific covariance matrix
+
+Assumptions:
+- Observations within each class follow multivariate Gaussian distribution
+- Each class has its own covariance matrix
+
+Advantages:
+- QDA is recommened over LDA when the training set is vary large(Variance brought by flexibility wil not be a issue), when  the assumption of a shared covariance matrix is badly off(Bias will be high for LDA)
+
+
+Disadvanges:
+- Can be a lot of parameters to estimate, k*P(P+1)/2, for covariance matrixes
+- Much flexible than LDA(with its quadratic boundries), but introduces more variance
+- 
