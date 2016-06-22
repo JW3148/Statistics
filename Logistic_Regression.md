@@ -11,7 +11,6 @@ Assumptions:
 Advantages:
 - vary good interpretability, can directly present the probabity of a class given X
 - resistent to over-fitting, less flexible model
-- 
 
 
 
