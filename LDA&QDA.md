@@ -33,8 +33,6 @@ Assumptions:
 Advantages:
 - QDA is recommened over LDA when the training set is vary large(Variance brought by flexibility wil not be a issue), when  the assumption of a shared covariance matrix is badly off(Bias will be high for LDA)
 
-
 Disadvanges:
 - Can be a lot of parameters to estimate, k*P(P+1)/2, for covariance matrixes
-- Much flexible than LDA(with its quadratic boundries), but introduces more variance
-- 
+- Much more flexible than LDA(with its quadratic boundries), but introduces more variance
