@@ -11,6 +11,8 @@ Assumptions:
 Advantage:
 - Can be easily applied to cases where there are more than two response classes
 - Good when X is approximately normal in each of the classes
+- LDA are closely related to Logistic regression in that both can reduce to same model formulation,
+when the normal assumptions and shared covariance assumption are valid, it can outperform Logistic regression
 
 Disadvantages:
 - LDA is trying to approximate the bayes classifer, which is trying to find the lowest TOTAL error rate, 
