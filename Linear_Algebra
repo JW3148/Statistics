@@ -1,3 +1,14 @@
 why linear algebra
   to represent higher dimension. e.g. lines in 3D or higher can be represented be parameterized equation
   
+vector
+  (3,2) means 3 steps right and 2 steps up.
+  direction+lenth
+  positioned vector - used to define lines(parameterized equations)
+  
+unit vector
+  vector has length of 1
+  
+  
+  
+  
