@@ -1,0 +1,23 @@
+vary nice article to break down p value
+
+'What a nerdy debate about p-values shows about science — and how to fix it'
+https://www.vox.com/science-and-health/2017/7/31/16021654/p-values-statistical-significance-redefine-0005
+
+Here is just a summary of it
+
+How ridiculous would it be to believe the null hypothesis is the true answer, given the results we’re seeing?
+
+Null hypothesis testing follows a similar logic: If there are huge and consistent weight differences between the chocolate eaters and chocolate abstainers, 
+the null hypothesis — that there are no weight differences — starts to look silly. And you can reject it.
+
+If the null hypothesis is right, the result we're seeing is STATISTICALY unlikely, or RARE
+
+That is, it’s how rare the results would be if nothing in your experiment worked, and the difference in weight was due to random chance alone.
+
+The p-value quantifies this rareness. It tells you how often you’d see the numerical results of an experiment — or even more extreme results — 
+if the null hypothesis is true and there’s no difference between the groups.
+
+Ideally, a p of .05 means if you ran the experiment 100 times — again, assuming the null hypothesis is true 
+— you’d see these same numbers (or more extreme results) five times.
+
+Type I Error: Reject null hypo when it is correct. false positive. Mistakenly reject null hypo when you shouldn't
